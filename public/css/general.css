@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--tipografiaGeneral);
+}
+
+body {
+    background-color: #ebebeb;
+    ;
+}
+
+.cuerpo_de_texto {
+    font-size: 12px
+}
+
+img {
+    width: 100%;
+}
+
+
+@media (min-width: 361px) {
+    .header {
+        background-color: var(--colorAmarillo);
+        padding-bottom: 10px;
+        width: 100%
+    }
+    .header__primer-nivel {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-wrap: nowrap ;
+        align-content: space-between;
+    }
+    .header__nav {
+        display: flex
+    }
+    .logo {
+        min-width: 20%;
+        max-width: 30%;
+        padding: 15px;
+        margin: 0;
+        padding: 15px 20px;
+    }
+    .slogan {
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+        width: 40%;
+    }
+    .slogan i {
+        margin-left: -5px;
+    }
+    .header__searchbar {
+      width: 45%;
+      margin: 0;
+      padding: 0;
+    }
+    .searchbar input{
+       width: 100%;
+
+    }
+    .header__nav {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: 40px 10px 10px 10px
+    }   
+    .header____nav--navbar {
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+        width: 50%;
+        flex-wrap: wrap;
+    }
+    .header__nav--loginbar {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        
+        flex-wrap: wrap;
+            }
+    .header__nav ul li{
+       margin: 0 0 0 18px
+       
+    }
+    .header__nav ul li a {
+       
+        font-size: 14px;
+    }
+  .main__section--productos{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+    margin-left: 5%;
+  }
+  .titular{
+    margin-left: 1%;
+  }
+    .producto {
+        margin: 15px;
+        padding: 0;
+        width: 40%;
+        
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .burger-menu {
+        display: none;
+    }
+   
+}
+
+@media (min-width: 769px) {
+    .producto {
+        padding: 0;
+        width: 20%;
+    }
+    }
