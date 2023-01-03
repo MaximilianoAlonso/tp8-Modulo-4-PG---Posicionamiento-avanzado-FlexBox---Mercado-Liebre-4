@@ -1,4 +1,4 @@
-# TP7 - Diseño adaptativo. 
+# TP8 - flexbox avanzado. 
 ### 3 vistas
 -------------------------------------------------------------------------
 #### mobile
